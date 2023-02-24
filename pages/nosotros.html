@@ -12,7 +12,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
 
   <body>
@@ -67,7 +67,7 @@
       <section>
         <div>
           <h1 class="nosotros">Nosotros</h1>
-          <p>
+          <p class="parrafo-nosotros">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
             quo voluptates voluptate dolor rerum beatae delectus doloremque
             ipsa, autem natus! Exercitationem at beatae sint dolores, dolorem
@@ -85,9 +85,28 @@
           </p>
         </div>
 
+        <div>
+          <h2 class="beneficios">Beneficios</h2>
+          <p class="parrafo-beneficios">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+            quo voluptates voluptate dolor rerum beatae delectus doloremque
+            ipsa, autem natus! Exercitationem at beatae sint dolores, dolorem
+            impedit? Quidem adipisci sunt aliquam, accusamus quaerat qui
+            dolorum? Vel non culpa exercitationem, ut quos dolorem! Magnam
+            molestiae provident quia temporibus animi ipsum quidem accusantium
+            alias accusamus asperiores consequuntur, quas pariatur vitae ducimus
+            nam a necessitatibus dolor aliquam illum ad. Optio molestias sint
+            rem natus autem, exercitationem provident dignissimos quo delectus
+            quas tempore ut animi cupiditate excepturi. Ipsam sit asperiores
+            tenetur dolorem accusamus doloremque possimus animi ad nisi
+            similique mollitia commodi tempore, quae deserunt cum impedit iusto
+            ex illum, porro quo harum eum ea! Dolorem porro necessitatibus
+            quaerat eaque, odio nemo assumenda commodi fuga.
+          </p>
+        </div>
         <div
           id="carouselExampleControls"
-          class="carousel slide"
+          class="carousel slide pb-4"
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
@@ -125,32 +144,32 @@
             <span class="visually-hidden">Siguiente</span>
           </button>
         </div>
-
-        <div>
-          <h2 class="beneficios">Beneficios</h2>
-          <p class="justify-content-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
-            quo voluptates voluptate dolor rerum beatae delectus doloremque
-            ipsa, autem natus! Exercitationem at beatae sint dolores, dolorem
-            impedit? Quidem adipisci sunt aliquam, accusamus quaerat qui
-            dolorum? Vel non culpa exercitationem, ut quos dolorem! Magnam
-            molestiae provident quia temporibus animi ipsum quidem accusantium
-            alias accusamus asperiores consequuntur, quas pariatur vitae ducimus
-            nam a necessitatibus dolor aliquam illum ad. Optio molestias sint
-            rem natus autem, exercitationem provident dignissimos quo delectus
-            quas tempore ut animi cupiditate excepturi. Ipsam sit asperiores
-            tenetur dolorem accusamus doloremque possimus animi ad nisi
-            similique mollitia commodi tempore, quae deserunt cum impedit iusto
-            ex illum, porro quo harum eum ea! Dolorem porro necessitatibus
-            quaerat eaque, odio nemo assumenda commodi fuga.
-          </p>
-        </div>
       </section>
     </main>
-    <br />
-    <br />
-    <br />
-    <footer>Roma Arte Natural © Copyright 2021</footer>
+    <section>
+      <!--Footer-->
+      <footer class="text-center text-white" style="background-color: #976052">
+        <div class="container p-2 pb-0">
+          <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+              <span class="me-3">Seguinos!</span>
+
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/roma.arte.natural/"
+                ><img src="/imgs/ig.png" alt="ig"
+              /></a>
+
+              <img src="/imgs/wsp.png" alt="wsp" />
+            </p>
+          </section>
+        </div>
+
+        <div class="container-fluid p-1" style="background-color: #4d312a">
+          © 2021 Copyright - Roma Arte Natural
+        </div>
+      </footer>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

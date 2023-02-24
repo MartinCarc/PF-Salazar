@@ -44,6 +44,22 @@ h1 {
   line-height: 30px;
 }
 
+.parrafo-nosotros {
+  font-family: "ABeeZee", sans-serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.parrafo-beneficios {
+  font-family: "ABeeZee", sans-serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
 .video-inicio {
   text-align: center;
 }
