@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/icono.ico" type="image/x-icon" />
     <title>Inicio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -11,47 +12,127 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Roma Arte Natural</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Envíos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
+  <body>
+    <!--Navbar-->
+    <header>
+      <div class="container">
+        <div class="text-center">
+          <img src="./imgs/logo-chico.png" class="mx-auto d-block" />
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Envíos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1>¡Bienvenidos!</h1>
+      <!--Imagen principal-->
+      <section>
+        <div class="imagen-bienvenida">
+          <img
+            src="imgs/imagenprincipal.png"
+            class="img-fluid"
+            alt="Imagen principal"
+          />
+        </div>
+        <!--Parrafo de entrada-->
+        <div>
+          <p class="parrafoinicio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+            labore? Explicabo, aspernatur ipsum. Mollitia explicabo provident
+            veniam exercitationem numquam, illum facilis, aliquid distinctio
+            nulla asperiores magnam voluptatibus! Perspiciatis, fuga molestiae,
+            saepe vitae optio corporis alias nihil earum illo eligendi
+            consequuntur sed animi? Perferendis, ex dignissimos. Ad, dolore.
+            Nostrum, placeat incidunt nobis nam id facilis! Illum, vel quasi
+            nostrum consectetur tempore tempora distinctio, eum quod eveniet
+            alias, rem officiis adipisci magnam dolorem nisi? Modi inventore
+            voluptatibus aliquid aut deserunt tempora. Facilis, debitis atque
+            rerum accusantium repudiandae veniam impedit vel? Sit deleniti
+            laudantium soluta eum officiis? Laborum hic perferendis nulla
+            possimus, iusto nisi! Quisquam, ratione id. Iste molestias similique
+            aliquam magni tenetur eveniet doloribus veniam provident, dolorum
+            quaerat nobis possimus sed id quo corporis laboriosam accusantium
+            animi ipsum! Ad accusamus obcaecati reprehenderit quo enim
+            dignissimos omnis, suscipit ducimus, aperiam voluptates doloribus
+            ratione, harum perspiciatis quod animi tenetur vero molestiae eius
+            officia nostrum.
+          </p>
+        </div>
+        <div class="video-inicio p-4">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/joj8GlMmw2U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <section class="">
+      <!-- Footer -->
+      <footer class="text-center text-white" style="background-color: #976052">
+        <div class="container p-2 pb-0">
+          <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+              <span class="me-3">Seguinos!</span>
+
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/roma.arte.natural/"
+                ><img src="./imgs/ig.png" alt="ig"
+              /></a>
+
+              <img src="./imgs/wsp.png" alt="wsp" />
+            </p>
+          </section>
+        </div>
+
+        <div class="text-center p-1" style="background-color: #4d312a">
+          © 2021 Copyright - Roma Arte Natural
+        </div>
+      </footer>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
