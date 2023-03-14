@@ -10,6 +10,10 @@ body {
   background-color: #cf8471;
 }
 
+.navbar {
+  background: #cf8471 !important;
+}
+
 h1 {
   font-family: "Amatic SC", cursive;
   font-size: 60px;
