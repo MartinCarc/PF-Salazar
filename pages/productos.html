@@ -6,99 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/imgs/icono.ico" type="image/x-icon" />
     <title>Productos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
 
   <body>
+    <!--Navbar-->
     <header>
-      <a href=""><img src="/imgs/logo.png" alt="Roma logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="#">Productos</a></li>
-          <li><a href="envios.html">Envíos</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="text-center">
+          <img src="/imgs/logo-chico.png" class="mx-auto d-block" />
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-link active">
+                  <a class="nav-item" aria-current="page" href="/index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/envios.html">Envíos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
+      <h1>Productos</h1>
+      <!--Tarjetas-->
       <section>
-        <br />
-        <div>
-          <h1>Productos</h1>
+        <div class="container d-flex justify-content-center">
+          <div class="tarjeta">
+            <img src="/imgs/productosvelas.jpg" />
+            <h2>Velas de Soja</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+              excepturi unde?
+            </p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+
+          <div class="tarjeta">
+            <img src="/imgs/productosjabones.jpg" />
+            <h2>Jabones de Glicerina</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+              excepturi unde?
+            </p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+
+          <div class="tarjeta">
+            <img src="/imgs/productossahumerios.jpg" />
+            <h2>Sahumerios</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
+              excepturi unde?
+            </p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
         </div>
-        <br />
-
-        <article>
-          <h2>Velas</h2>
-          <img
-            src="/imgs/productosvelas.jpg"
-            width="400"
-            height="600"
-            alt="Velas"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab
-            magni quibusdam inventore excepturi recusandae, maxime asperiores
-            deserunt at harum doloribus, in soluta temporibus necessitatibus!
-          </p>
-          <p>Fragancias disponibles:</p>
-          <ul>
-            <li>Limón</li>
-            <li>Rosas</li>
-            <li>Floral</li>
-            <li>Coco</li>
-          </ul>
-        </article>
-
-        <article>
-          <h2>Jabones</h2>
-          <img
-            src="/imgs/productosjabones.jpg"
-            width="400"
-            height="600"
-            alt="Jabones"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab
-            magni quibusdam inventore excepturi recusandae, maxime asperiores
-            deserunt at harum doloribus, in soluta temporibus necessitatibus!
-          </p>
-          <p>Fragancias disponibles:</p>
-          <ul>
-            <li>Limón</li>
-            <li>Rosas</li>
-            <li>Floral</li>
-            <li>Coco</li>
-          </ul>
-        </article>
-
-        <article>
-          <h2>Sahumerios</h2>
-          <img
-            src="/imgs/productossahumerios.jpg"
-            idth="400"
-            height="600"
-            alt="Sahumerios"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab
-            magni quibusdam inventore excepturi recusandae, maxime asperiores
-            deserunt at harum doloribus, in soluta temporibus necessitatibus!
-          </p>
-          <p>Fragancias disponibles:</p>
-          <ul>
-            <li>Limón</li>
-            <li>Rosas</li>
-            <li>Floral</li>
-            <li>Coco</li>
-          </ul>
-        </article>
       </section>
     </main>
-    <br />
-    <br />
-    <br />
-    <footer>Roma Arte Natural © Copyright 2021</footer>
+    <section>
+      <!--Footer-->
+      <footer class="text-center text-white" style="background-color: #976052">
+        <div class="container p-2 pb-0">
+          <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+              <span class="me-3">Seguinos!</span>
+
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/roma.arte.natural/"
+                ><img src="/imgs/ig.png" alt="ig"
+              /></a>
+
+              <img src="/imgs/wsp.png" alt="wsp" />
+            </p>
+          </section>
+        </div>
+
+        <div class="container-fluid p-1" style="background-color: #4d312a">
+          © 2021 Copyright - Roma Arte Natural
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
