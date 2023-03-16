@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Amatic+SC:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap");
 
 * {
   margin: 0;
@@ -19,7 +19,7 @@ body {
 .navbar {
   background: #cf8471 !important;
   font-size: 20px;
-  font-family: "Cinzel", serif;
+  font-family: "Edu NSW ACT Foundation", cursive;
   margin: 10px;
 }
 
@@ -28,13 +28,16 @@ h1 {
   font-size: 60px;
   text-align: center;
   padding-top: 20px;
+  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0 / 400% 100%;
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
-.nosotros {
-  font-family: "Amatic SC", cursive;
-  font-size: 60px;
-  text-align: center;
-  padding-top: 20px;
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
 }
 
 .beneficios {
@@ -42,11 +45,34 @@ h1 {
   font-size: 60px;
   text-align: center;
   padding-top: 20px;
+  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0 / 400% 100%;
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
 }
 
 .imagen-bienvenida {
+  animation: fadeIn 1s ease;
   text-align: center;
   margin: 40px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(20px);
+  }
+
+  10% {
+    opacity: 1;
+    filter: brightness(2) blur(10px);
+  }
 }
 
 .parrafoinicio {
@@ -95,6 +121,14 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
 .container .tarjeta {
   width: 330px;
   height: 450px;
@@ -104,9 +138,10 @@ h1 {
   margin: 20px;
   text-align: center;
   transition: all 0.25s;
-  background-color: #ffffff;
+  background-color: #d4a699;
 }
-< .container .tarjeta:hover {
+
+.container .tarjeta:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
@@ -119,6 +154,7 @@ h1 {
 .container .tarjeta h2 {
   font-weight: 600;
   color: #131212;
+  margin-top: 15px;
 }
 
 .container .tarjeta p {
@@ -133,4 +169,45 @@ h1 {
   text-decoration: none;
   background-color: #131212;
   color: #ffffff;
+}
+
+.parrafo-envios {
+  font-family: "ABeeZee", sans-serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.pagos {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0 / 400% 100%;
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
+}
+
+.parrafo-pagos {
+  font-family: "ABeeZee", sans-serif;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.logo-envio {
+  text-align: center;
+}
+
+.logo-pagos {
+  text-align: center;
 }

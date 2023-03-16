@@ -6,59 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/imgs/icono.ico" type="image/x-icon" />
     <title>Envíos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
-
   <body>
+    <!--Navbar-->
     <header>
-      <a href=""><img src="/imgs/logo.png" alt="Roma logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="productos.html">Productos</a></li>
-          <li><a href="#">Envíos</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="text-center">
+          <img src="/imgs/logo-chico.png" class="mx-auto d-block" />
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Envíos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
-    <main>
-      <section>
-        <div>
-          <h1>Envíos</h1>
-        </div>
-        <a href=""><img src="/imgs/logoenvio.png" alt="Logo envios" /></a>
-        <div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
-            quo voluptates voluptate dolor rerum beatae delectus doloremque
-            ipsa, autem natus! Exercitationem at beatae sint dolores, dolorem
-            impedit? Quidem adipisci sunt aliquam, accusamus quaerat qui
-            dolorum? Vel non culpa exercitationem, ut quos dolorem!
+
+    <div>
+      <h1>Envíos</h1>
+      <div class="logo-envio">
+        <img src="/imgs/logoenvio.png" alt="envio" />
+      </div>
+      <p class="parrafo-envios">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae quo
+        voluptates voluptate dolor rerum beatae delectus doloremque ipsa, autem
+        natus! Exercitationem at beatae sint dolores, dolorem impedit? Quidem
+        adipisci sunt aliquam.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="pagos">Formas de Pago</h2>
+      <div class="logo-envio">
+        <img src="/imgs/logopago.png" alt="pago" />
+      </div>
+      <p class="parrafo-pagos">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae quo
+        voluptates voluptate dolor rerum beatae delectus doloremque ipsa, autem
+        natus! Exercitationem at beatae sint dolores, dolorem impedit? Quidem
+        adipisci sunt aliquam.
+      </p>
+    </div>
+
+    <!--Footer-->
+    <footer class="text-center text-white" style="background-color: #976052">
+      <div class="container p-2 pb-0">
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3">Seguinos!</span>
+
+            <a
+              title="Instagram"
+              href="https://www.instagram.com/roma.arte.natural/"
+              ><img src="/imgs/ig.png" alt="ig"
+            /></a>
+
+            <img src="/imgs/wsp.png" alt="wsp" />
           </p>
-        </div>
-        <div></div>
-        <br />
-        <br />
-        <div>
-          <h2>Formas de Pago</h2>
-        </div>
-        <a href=""><img src="/imgs/logopago.png" alt="Logo pagos" /></a>
-        <div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
-            quo voluptates voluptate dolor rerum beatae delectus doloremque
-            ipsa, autem natus! Exercitationem at beatae sint dolores, dolorem
-            impedit? Quidem adipisci sunt aliquam, accusamus quaerat qui
-            dolorum? Vel non culpa exercitationem, ut quos dolorem!
-          </p>
-        </div>
-        <br />
-        <br />
-      </section>
-    </main>
-    <br />
-    <br />
-    <br />
-    <footer>Roma Arte Natural © Copyright 2021</footer>
+        </section>
+      </div>
+
+      <div class="container-fluid p-1" style="background-color: #4d312a">
+        © 2021 Copyright - Roma Arte Natural
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
