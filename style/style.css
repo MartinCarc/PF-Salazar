@@ -214,14 +214,11 @@ h1 {
 
 .formulario {
   text-align: center;
-}
-
-.botoncontacto {
-  background-color: #131212;
-  color: #ffffff;
-}
-
-.formulario {
   padding: 25px;
   font-size: 25px;
+}
+
+.localidad {
+  text-align: center;
+  font-size: 40px;
 }
