@@ -211,3 +211,17 @@ h1 {
 .logo-pagos {
   text-align: center;
 }
+
+.formulario {
+  text-align: center;
+}
+
+.botoncontacto {
+  background-color: #131212;
+  color: #ffffff;
+}
+
+.formulario {
+  padding: 25px;
+  font-size: 25px;
+}

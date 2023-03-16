@@ -6,65 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/imgs/icono.ico" type="image/x-icon" />
     <title>Contacto</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
 
-  <body>
+  <body class="body-contacto">
+    <!--Navbar-->
     <header>
-      <a href=""><img src="/imgs/logo.png" alt="Roma logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="productos.html">Productos</a></li>
-          <li><a href="envios.html">Envíos</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="text-center">
+          <img src="/imgs/logo-chico.png" class="mx-auto d-block" />
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Envíos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>Contacto @</h1>
-        </div>
-        <div>
-          <form>
-            <label for="nombre">
-              Nombre 
-              <input type="name" id="nombre" required>
-            </label>
-            <br>
-            <br>
-            <label for="email">
-                E-mail
-                <input type="email" id="email" required>
-            </label>
-            <br>
-            <br>
-            <label for="nombre">
-                Asunto
-                <input type="text" id="asunto" required>
-            </label>
-            <br>
-            <br>
-            <label for="mensaje"></label>
-                 Mensaje
-                 <textarea name="" id="mensaje" cols="30" rows="10" required></textarea>
-            </label>
-            <br>
-            <br>
-            <button type="submit">Enviar</button>
-            <button type="reset">Borrar</button>
-          </form>
-        </div>
-      </section>
-      <div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26783.47600992991!2d-60.6404608!3d-32.95273864999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1675219938199!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div>
+        <h1>Contacto @</h1>
       </div>
+
+      <div class="formulario">
+        <form>
+          <label for="nombre">
+            Nombre 
+            <input type="name" id="nombre" required>
+          </label>
+          <br>
+          <br>
+          <label for="email">
+              E-mail
+              <input type="email" id="email" required>
+          </label>
+          <br>
+          <br>
+          <label for="nombre">
+              Asunto
+              <input type="text" id="asunto" required>
+          </label>
+          <br>
+          <br>
+          <label for="mensaje"></label>
+               Mensaje
+               <textarea name="" id="mensaje" cols="30" rows="10" required></textarea>
+          </label>
+          <br>
+          <br>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <footer>Roma Arte Natural © Copyright 2021</footer>
+
+    <!--Footer-->
+    <footer class="text-center text-white" style="background-color: #976052">
+      <div class="container p-2 pb-0">
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3">Seguinos!</span>
+
+            <a
+              title="Instagram"
+              href="https://www.instagram.com/roma.arte.natural/"
+              ><img src="/imgs/ig.png" alt="ig"
+            /></a>
+
+            <img src="/imgs/wsp.png" alt="wsp" />
+          </p>
+        </section>
+      </div>
+
+      <div class="container-fluid p-1" style="background-color: #4d312a">
+        © 2021 Copyright - Roma Arte Natural
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
