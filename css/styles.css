@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Amatic+SC:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +27,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   padding-top: 20px;
-  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0 / 400% 100%;
+  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0/400% 100%;
   animation: move-bg 4s infinite linear;
   color: transparent;
   -webkit-background-clip: text;
@@ -39,13 +38,12 @@ h1 {
     background-position: 400% 0;
   }
 }
-
 .beneficios {
   font-family: "Amatic SC", cursive;
   font-size: 60px;
   text-align: center;
   padding-top: 20px;
-  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0 / 400% 100%;
+  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0/400% 100%;
   animation: move-bg 4s infinite linear;
   color: transparent;
   -webkit-background-clip: text;
@@ -56,7 +54,6 @@ h1 {
     background-position: 400% 0;
   }
 }
-
 .imagen-bienvenida {
   animation: fadeIn 1s ease;
   text-align: center;
@@ -68,13 +65,11 @@ h1 {
     opacity: 0;
     filter: blur(20px);
   }
-
   10% {
     opacity: 1;
     filter: brightness(2) blur(10px);
   }
 }
-
 .parrafoinicio {
   font-family: "ABeeZee", sans-serif;
   margin: 20px;
@@ -140,31 +135,26 @@ h1 {
   transition: all 0.25s;
   background-color: #d4a699;
 }
-
 .container .tarjeta:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-
 .container .tarjeta img {
   width: 330px;
   height: 220px;
 }
-
-.container .tarjeta h2 {
+.container .tarjeta img h2 {
   font-weight: 600;
   color: #131212;
   margin-top: 15px;
 }
-
-.container .tarjeta p {
+.container .tarjeta img h2 p {
   padding: 0 1rem;
   font-size: 20px;
   font-weight: 300;
   color: #131212;
 }
-
-.container .tarjeta a {
+.container .tarjeta img h2 p a {
   font-weight: 500;
   text-decoration: none;
   background-color: #131212;
@@ -184,7 +174,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   padding-top: 20px;
-  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0 / 400% 100%;
+  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0/400% 100%;
   animation: move-bg 4s infinite linear;
   color: transparent;
   -webkit-background-clip: text;
@@ -195,7 +185,6 @@ h1 {
     background-position: 400% 0;
   }
 }
-
 .parrafo-pagos {
   font-family: "ABeeZee", sans-serif;
   margin: 20px;
@@ -222,3 +211,5 @@ h1 {
   text-align: center;
   font-size: 40px;
 }
+
+/*# sourceMappingURL=styles.css.map */
