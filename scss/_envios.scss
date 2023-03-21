@@ -1,0 +1,24 @@
+.pagos {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+  background: linear-gradient(90deg, #cf8471, rgb(0, 0, 0)) 0 0 / 400% 100%;
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
+}
+
+.logo-envio {
+  text-align: center;
+}
+
+.logo-pagos {
+  text-align: center;
+}

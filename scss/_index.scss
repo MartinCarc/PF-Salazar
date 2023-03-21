@@ -1,0 +1,21 @@
+.imagen-bienvenida {
+  animation: fadeIn 1s ease;
+  text-align: center;
+  margin: 40px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(20px);
+  }
+
+  10% {
+    opacity: 1;
+    filter: brightness(2) blur(10px);
+  }
+}
+
+.video-inicio {
+  text-align: center;
+}
