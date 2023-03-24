@@ -1,5 +1,8 @@
+$color-parrafo: black;
+$tipografia-general: "ABeeZee", sans-serif;
+
 .parrafoinicio {
-  font-family: "ABeeZee", sans-serif;
+  font-family: $tipografia-general;
   margin: 20px;
   padding: 20px;
   text-align: center;
@@ -7,33 +10,37 @@
 }
 
 .parrafo-nosotros {
-  font-family: "ABeeZee", sans-serif;
+  font-family: $tipografia-general;
   margin: 20px;
   padding: 20px;
   text-align: center;
   line-height: 30px;
+  color: $color-parrafo;
 }
 
 .parrafo-beneficios {
-  font-family: "ABeeZee", sans-serif;
+  font-family: $tipografia-general;
   margin: 20px;
   padding: 20px;
   text-align: center;
   line-height: 30px;
+  color: $color-parrafo;
 }
 
 .parrafo-envios {
-  font-family: "ABeeZee", sans-serif;
+  font-family: $tipografia-general;
   margin: 20px;
   padding: 20px;
   text-align: center;
   line-height: 30px;
+  color: $color-parrafo;
 }
 
 .parrafo-pagos {
-  font-family: "ABeeZee", sans-serif;
+  font-family: $tipografia-general;
   margin: 20px;
   padding: 10px;
   text-align: center;
   line-height: 30px;
+  color: $color-parrafo;
 }
