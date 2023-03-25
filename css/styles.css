@@ -52,6 +52,14 @@
   margin: 10px;
 }
 
+.nav-item a:hover {
+  color: #fcfbfb;
+}
+
+.nav-item .nav-link.active {
+  color: #fcfbfb;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -196,6 +204,10 @@ h2 {
 }
 .video-inicio {
   text-align: center;
+}
+
+.pie {
+  bottom: 0;
 }
 
 .copyright {

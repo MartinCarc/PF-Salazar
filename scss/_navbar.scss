@@ -4,3 +4,11 @@
   font-family: "Edu NSW ACT Foundation", cursive;
   margin: 10px;
 }
+
+.nav-item a:hover {
+  color: #fcfbfb;
+}
+
+.nav-item .nav-link.active {
+  color: #fcfbfb;
+}
